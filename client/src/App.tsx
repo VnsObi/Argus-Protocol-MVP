@@ -29,7 +29,7 @@ function App() {
   const [rwaResult, setRwaResult] = useState<any>(null);
   const [rwaError, setRwaError] = useState("");
 
-  const API_URL = "https://argus-api.onrender.com/api";
+  const API_URL = "https://argus-protocol-mvp.onrender.com/api";
 
   // --- VALIDATION LOGIC ---
   const isValidWalletAddress = (addr: string) => {
